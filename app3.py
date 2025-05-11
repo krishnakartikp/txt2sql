@@ -84,7 +84,7 @@ if st.button("Get query & data"):
 
         mydocs = list(db_metadata["schema"])
         
-        os.environ["OPENAI_API_KEY"] = "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"
+        os.environ["OPENAI_API_KEY"] = "**************"
 
         embeddings = OpenAIEmbeddings()
         
